@@ -9,14 +9,14 @@ Du vil se totaltallene for Norge når du åpner siden første gang. I menyen til
 - Eiendomstyveri
 - Vold og mishandling
 - Rusmiddellovbrudd
-- Ordens- og integritetskrenkelser
+- Ordens- og integritetskrenkelser 
 - Trafikkovertredelser
 - Annet - alle andre lovbrudd ikke inkludert i kategoriene over
 
 Under tabellvisningen kan du laste ned dataene i Excel-format.
 
 ### Toårige gjennomsnitt
-Tabellene viser tall som er **toårige gjennomsnitt**: Hvis en kommune har hatt 20 eiendomstyverier i perioden 20-21, betyr det at det kan ha vært 15 tyverier i 2020 og 25 i 2021. Gjennomsnittet blir da 20. Toårige gjennomsnitt er brukt for å jevne ut de største variasjonene, som kan skyldes små kommuner eller store enkeltsaker i et gitt år. Dette er også årsaken til at lovbruddsgruppene er såpass vide. 
+Tabellene viser tall som er **toårige gjennomsnitt**: Hvis en kommune har hatt 20 eiendomstyverier i perioden 2020-2021, betyr det at det kan ha vært 15 tyverier i 2020 og 25 i 2021. Gjennomsnittet blir da 20. Toårige gjennomsnitt er brukt for å jevne ut de største variasjonene, som kan skyldes små kommuner eller store enkeltsaker i et gitt år. Dette er også årsaken til at lovbruddsgruppene er såpass vide. 
 
 Der det har vært fire eller færre lovbrudd i en gitt kategori og kommune, har ikke SSB oppgitt tall. Da vil det stå "Mangler data" i tabellen.
 
