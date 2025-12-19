@@ -21,7 +21,7 @@ Tabellene viser tall som er **toårige gjennomsnitt**: Hvis en kommune har hatt 
 Der det har vært fire eller færre lovbrudd i en gitt kategori og kommune, har ikke SSB oppgitt tall. Da vil det stå "Mangler data" i tabellen.
 
 ### Anmeldte lovbrudd
-Tallene omfatter alle lovbrudd registrert av politiet og påtalemyndigheten som anmeldt i løpet av statistikkåret. Det trenger ikke bety at lovbruddet ble begått samme år. Om et lovbrudd som skjedde i desember 2022, først ble anmeldt i januar 2023, vil lovbruddet være registrert på 2023.
+Tallene omfatter alle lovbrudd registrert av politiet og påtalemyndigheten som ble anmeldt i løpet av statistikkåret. Det trenger ikke bety at lovbruddet ble begått samme år. Om et lovbrudd som skjedde i desember 2022, først ble anmeldt i januar 2023, vil lovbruddet være registrert på 2023.
 
 Trafikk- og tollovovertredelser som avgjøres med forenklede forelegg, regnes ikke som anmeldte og er derfor ikke med i statistikken. 
 
