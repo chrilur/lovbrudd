@@ -85,7 +85,15 @@ kommune_data = df[df["visningsnavn"] == valgt_kommune].sort_values("år")
 
 # --- Diagram ---
 st.title(f"Anmeldte lovbrudd i {valgt_kommune}")
-st.subtitle("Toårige gjennomsnittstall")
+# Undertittel med markdown for å styre stil
+st.markdown(
+    f"""
+    <div style='font-size: 18px; color: #555; margin-top: -15px; margin-bottom: 20px;'>
+        Toårige gjennomsnitt for lovbrudd med gjerningssted i norske kommuner 2020–2024.
+    </div>
+    """, 
+    unsafe_allow_html=True
+)
 if valgte_kolonner:
     plot_data = kommune_data.set_index("år")[valgte_kolonner].rename(columns=display_map).fillna(0)
     plot_data = plot_data.reset_index().melt('år', var_name='Kategori', value_name='Antall')
