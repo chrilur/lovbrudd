@@ -85,6 +85,7 @@ kommune_data = df[df["visningsnavn"] == valgt_kommune].sort_values("år")
 
 # --- Diagram ---
 st.title(f"Anmeldte lovbrudd i {valgt_kommune}")
+st.subtitle("Toårige gjennomsnittstall")
 if valgte_kolonner:
     plot_data = kommune_data.set_index("år")[valgte_kolonner].rename(columns=display_map).fillna(0)
     plot_data = plot_data.reset_index().melt('år', var_name='Kategori', value_name='Antall')
