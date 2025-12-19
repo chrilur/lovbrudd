@@ -6,6 +6,36 @@ import altair as alt
 from pathlib import Path
 from sidebar_utils import setup_page_header, add_sidebar_footer
 
+#Passordsjekk
+def sjekk_passord():
+    """Returnerer True hvis brukeren har tastet inn riktig passord."""
+    def passord_er_riktig():
+        # Sjekker mot passordet vi lagrer i Streamlit Secrets
+        if st.session_state["password"] == st.secrets["password"]:
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # Sletter passordet fra minnet etter bruk
+        else:
+            st.session_state["password_correct"] = False
+
+    if "password_correct" not in st.session_state:
+        # Første gang: Vis inntastingsfelt
+        st.text_input("Vennligst oppgi passord for å se statistikken", 
+                      type="password", on_change=passord_er_riktig, key="password")
+        return False
+    elif not st.session_state["password_correct"]:
+        # Feil passord tastet inn
+        st.text_input("Feil passord. Prøv igjen", 
+                      type="password", on_change=passord_er_riktig, key="password")
+        st.error("😕 Passordet er feil")
+        return False
+    else:
+        # Passordet er korrekt
+        return True
+
+# --- Kjør sjekken ---
+if not sjekk_passord():
+    st.stop()  # Stopper resten av appen fra å kjøre
+
 # Konfigurasjon
 st.set_page_config(page_title="Anmeldte lovbrudd i Norge", layout="wide")
 
