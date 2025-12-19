@@ -89,7 +89,7 @@ st.title(f"Anmeldte lovbrudd i {valgt_kommune}")
 st.markdown(
     f"""
     <div style='font-size: 18px; color: #555; margin-top: -15px; margin-bottom: 20px;'>
-        Toårige gjennomsnitt for lovbrudd begått i norske kommuner 2020–2024
+        Toårige gjennomsnitt for lovbrudd begått i {valgt_kommune} 2020–2024
     </div>
     """, 
     unsafe_allow_html=True
