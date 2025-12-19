@@ -20,6 +20,9 @@ Tabellene viser tall som er **toårige gjennomsnitt**: Hvis en kommune har hatt 
 
 Der det har vært fire eller færre lovbrudd i en gitt kategori og kommune, har ikke SSB oppgitt tall. Da vil det stå "Mangler data" i tabellen.
 
+Korrekt bruk av tallene kan se omtrent slik ut: 
+> I Andøy ble 154 lovbrudd anmeldt i gjennomsnitt i årene 2023 og 2024. Det var en økning på 12 prosent fra foregående periode.
+
 ### Anmeldte lovbrudd
 Tallene omfatter alle lovbrudd registrert av politiet og påtalemyndigheten som ble anmeldt i løpet av statistikkåret. Det trenger ikke bety at lovbruddet ble begått samme år. Om et lovbrudd som skjedde i desember 2022, først ble anmeldt i januar 2023, vil lovbruddet være registrert på 2023.
 
